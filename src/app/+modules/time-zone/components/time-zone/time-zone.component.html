@@ -1,9 +1,9 @@
 <div class="row">
     <app-navbar></app-navbar>
     
-    <div class="card col-6 mt-3 mx-auto">
+    <div class="card col-12 col-md-8 mt-3 mx-auto">
         <div class="card-body">
-            <div class="col-4" >
+            <div class="col-12 col-md-8" >
                 <select class="form-select mb-3" (change)="changeValue($event)">
                     <option>Seleccione un valor</option>
                     <option *ngFor="let zone of zones">{{zone}}</option>
@@ -16,7 +16,7 @@
                 </button>
             </div>
         
-            <div class="col-6 mt-3" *ngIf="dataFormat.timezone">
+            <div class="col-12 col-md-8 mt-3" *ngIf="dataFormat.timezone">
                 <h5> 
                     ZONA - {{dataFormat.timezone}}
                 </h5>
