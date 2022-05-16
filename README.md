@@ -1,27 +1,35 @@
 # TechnicalTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+_Prueba técnica para la empresa Ampere Energy
 
-## Development server
+## Comenzando 🚀
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+_Se han usado las siguientes herramientas:__Se han usado las siguientes herramientas:_
 
-## Code scaffolding
+- Git cmd
+- npm 8.10.0
+- Visual Studio Code
+- Angular CLI 13.3.5
+- Node 16.15.0
+- TypeScript 4.6.4
+- Bootstrap
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Instalación y ejecución 🔧
 
-## Build
+_Primer paso: descarga del proyecto_
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+_Segundo paso: acceder a /technicalTest y ejecutar_
 
-## Running unit tests
+```
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+_Tercer paso, en el navegador accedemos a la ruta:_
 
-## Running end-to-end tests
+```
+http://localhost:4200/spa
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Autores ✒️
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* **Miguel Aurelio García González** - *Proyecto Spa* - [MigueGar](https://github.com/MigueGar/technicalTest)
