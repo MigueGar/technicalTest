@@ -8,7 +8,7 @@ import { TimeZoneServiceModule } from '../../time-zone.service.module';
 })
 export class TimeZoneService {
 
-  url: string = 'http://worldtimeapi.org/api/timezone/';
+  url: string = 'https://worldtimeapi.org/api/timezone/';
 
   constructor(
     private http: HttpClient
