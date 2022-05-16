@@ -1,10 +1,10 @@
 # TechnicalTest
 
-_Prueba técnica para la empresa Ampere Energy
+_Prueba técnica para la empresa Ampere Energy_
 
 ## Comenzando 🚀
 
-_Se han usado las siguientes herramientas:__Se han usado las siguientes herramientas:_
+_Se han usado las siguientes herramientas: Se han usado las siguientes herramientas:_
 
 - Git cmd
 - npm 8.10.0
@@ -32,4 +32,4 @@ http://localhost:4200/spa
 
 ## Autores ✒️
 
-* **Miguel Aurelio García González** - *Proyecto Spa* - [MigueGar](https://github.com/MigueGar/technicalTest)
+* **Miguel Aurelio García González** - *TechnicalTest* - [MigueGar](https://github.com/MigueGar/technicalTest)
