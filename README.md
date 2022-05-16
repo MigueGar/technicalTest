@@ -36,6 +36,14 @@ _Cuarto paso, en el navegador accedemos a la ruta:_
 http://localhost:4200/zona-horaria
 ```
 
+_En el caso de querer lanzar los test unitarios, debemos lanzar el siguiente comando:_
+
+```
+npm test
+```
+
+_Para ver los resultados iremos a la ruta (dentro de la carpeta del proyecto) coverage -> technical-test -> lcov-report y accederemos el fichero index.html en el navegador_
+
 ## Autores ✒️
 
 * **Miguel Aurelio García González** - *TechnicalTest* - [MigueGar](https://github.com/MigueGar/technicalTest)
