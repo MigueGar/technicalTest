@@ -4,7 +4,7 @@ _Prueba técnica para la empresa Ampere Energy_
 
 ## Comenzando 🚀
 
-_Se han usado las siguientes herramientas: Se han usado las siguientes herramientas:_
+_Se han usado las siguientes herramientas:_
 
 - Git cmd
 - npm 8.10.0
