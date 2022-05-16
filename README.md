@@ -24,7 +24,13 @@ _Segundo paso: acceder a /technicalTest y ejecutar_
 npm install
 ```
 
-_Tercer paso, en el navegador accedemos a la ruta:_
+_Tercer paso, ejecutar el comando:_
+
+```
+ng serve
+```
+
+_Cuarto paso, en el navegador accedemos a la ruta:_
 
 ```
 http://localhost:4200/zona-horaria
