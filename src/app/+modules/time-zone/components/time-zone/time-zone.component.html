@@ -1,0 +1,32 @@
+<div class="row">
+    <app-navbar></app-navbar>
+    
+    <div class="card col-6 mt-3 mx-auto">
+        <div class="card-body">
+            <div class="col-4" >
+                <select class="form-select mb-3" (change)="changeValue($event)">
+                    <option>Seleccione un valor</option>
+                    <option *ngFor="let zone of zones">{{zone}}</option>
+                </select>
+            </div>
+            
+            <div>
+                <button class="btn btn-primary" type="button" (click)="changeZone()" [disabled]="!zone || zone === 'Seleccione un valor'">
+                    Cambio zona
+                </button>
+            </div>
+        
+            <div class="col-6 mt-3" *ngIf="dataFormat.timezone">
+                <h5> 
+                    ZONA - {{dataFormat.timezone}}
+                </h5>
+                <h5> 
+                    HORA - {{dataFormat.datetime | date: 'HH:mm:ss z' : dataFormat.abbreviation}}
+                </h5>
+                <h5> 
+                    FECHA - {{dataFormat.datetime | date: 'dd/MM/yyyy' : dataFormat.abbreviation}}
+                </h5>
+            </div>
+        </div>
+    </div>
+  </div>

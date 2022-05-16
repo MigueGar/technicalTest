@@ -1,0 +1,26 @@
+<div class="row">
+    <app-navbar></app-navbar>
+    
+    <div class="card col-6 mt-3 mx-auto">
+        <div class="card-body">
+            <div class="row">
+                <div class="row">
+                    <h3>{{hour}} : {{minute}} : {{second}} : {{millisecond}}</h3>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-1">
+                        <button type="button" class="btn btn-primary" (click)="startStopwatch()">
+                            <i *ngIf="!running" class="bi bi-play-circle"></i>
+                            <i *ngIf="running" class="bi bi-pause-circle"></i>
+                        </button>
+                    </div>
+                    <div class="col-1">
+                        <button type="button" class="btn btn-primary" (click)="resetStopwatch()">
+                            <i class="bi bi-arrow-counterclockwise"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
