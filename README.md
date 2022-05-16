@@ -27,7 +27,7 @@ npm install
 _Tercer paso, en el navegador accedemos a la ruta:_
 
 ```
-http://localhost:4200/spa
+http://localhost:4200/zona-horaria
 ```
 
 ## Autores ✒️
